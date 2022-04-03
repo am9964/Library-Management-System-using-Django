@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     {% load staticfiles %}
-    {% block title %}<title>Local Library</title>{% endblock %}
+    {% block title %}<title>My Own Library</title>{% endblock %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -25,7 +25,7 @@
         {% endblock %}
 
         body {
-            background: url("{% static 'books-library-students-12064.jpg' %}");
+            background: url("{% static 'istockphoto-1298538414-170667a.jpg' %}");
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: 100% 100%;
@@ -38,7 +38,7 @@
 
 <div class="container-fluid my-auto">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="{% url 'index' %}">MY LIBRARY </a>
+        <a class="navbar-brand" href="{% url 'index' %}"><img src="{%static 'logo.jpg' %}" height="30px" width="50px"> MY OWN LIBRARY </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

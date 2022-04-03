@@ -1,11 +1,36 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-    <div class="container bg bg-white">
-        <center>
-            <H1>
-               WELCOME To Library Management System. This has been developed by Adarsh Srivastava and Ankit Mathur
+<center>   
+<div class="container">
+        
+            <H1 style="color:rgb(255, 255, 255); margin:0% 10% 1% 30%; ">
+               Library Management System
             </H1>
+            <p style="color:rgb(255, 255, 255); margin:0px 10% 1% 30%; font-size: 18px;" ><i>"The only thing that you absolutely have to know, is the location of the library"
+            </i></p>
+
     </div>
-    </center>
+    
+    <div id="ImageCarouselCSS" class="carousel slide" data-ride="carousel" style="margin:0% 2% 0% 22%;" >
+
+
+        <ol class="carousel-indicators">
+          <li data-target="#ImageCarouselCSS" data-slide-to="0" class="active"></li>
+          <li data-target="#ImageCarouselCSS" data-slide-to="1"></li>
+          <li data-target="#ImageCarouselCSS" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" style="border: 1px; border-radius: 15px;">
+            <div class="carousel-item active">
+                <img src="https://media.gettyimages.com/photos/full-bookshelves-in-a-san-fransisco-bookstore-picture-id1162697922?k=20&m=1162697922&s=612x612&w=0&h=C-Hz_1Ye14ol4gUt-U0kv0wCQMDS6RRcv7wMnea0CrU=" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.gettyimages.com/photos/traditional-wooden-steps-in-vintage-library-picture-id923561924?k=20&m=923561924&s=612x612&w=0&h=Wi2LfnJSFD5ADoGePkO7IOtMaGC_tD-daWMYcCEeqYo=" class="d-block w-100" >
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.gettyimages.com/photos/various-books-on-shelves-full-frame-picture-id88006976?k=20&m=88006976&s=612x612&w=0&h=RV2PVjRSiEwOnns07TxDUpd1y6QbnGzlJfBFbQnbGLI=" class="d-block w-100" >
+            </div>
+        </div>
+    </div>
+</center>
 {% endblock %}

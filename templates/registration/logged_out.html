@@ -1,9 +1,11 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-    <div class="bg bg-white">
-<p>Logged out!</p>  
-
-<a href="{% url 'login'%}">Click here to login again.</a>
-    </div>
+{% load static %}
+<div style="margin-left: 565px; color: white;"><h2><img src="{%static 'logo.jpg' %}" height="50px" width="100px"/> My Own Library</h2></div><hr/>
+<div> 
+    <h1 style="margin-left: 630px; margin-top: 200px; color: beige;">Logged Out</h1>
+    <h5 style="margin-left: 590px; margin-top: 10px; color: beige;">Thanks for using My Own Library</h5>
+    <a class="btn btn-primary" href="{% url 'login'%}" style="margin-left: 685px; margin-top: 10px; color: beige;">Login again</a>
+</div>
 {% endblock %}

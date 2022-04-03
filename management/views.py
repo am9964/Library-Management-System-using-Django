@@ -1,3 +1,4 @@
+from unittest.util import _MAX_LENGTH
 from django.shortcuts import render, redirect
 
 from .models import *
@@ -104,7 +105,7 @@ def student_request_issue(request, pk):
         a.save()
     else:
         message = "you have exceeded limit."
-    return render(request, 'catalog/result.html', locals())
+    return render(request, '../templates/catalog/result.html', locals())
 
 
 @login_required

@@ -1,29 +1,38 @@
-{% extends "base_generic.html" %}
+p{% extends "base_generic.html" %}
 
 {% block content %}
-   <center> <form class="form" id="searchform" action="{% url 'search_b' %}" method="get">
-    <div class="form-group">
-    <input type="text" class="col-5  form-control-lg"  placeholder="enter book title or something " name="q" type="text"/>
-    <button type="button"  class="btn btn-success form-control-lg" onclick="searchform.submit()">Search</button>
+   <form class="form" id="searchform" action="{% url 'search_b' %}" method="get">
+    <div class="form-group ">
+    <input type="text" class="col-5  form-control-lg"  placeholder="enter book title or something " name="q" type="text" size="20%" style="margin-left: 1px;"/>
+    <button type="button"  class="btn btn-success form-control-lg" onclick="searchform.submit()" style="margin-top: -10px;">Search</button>
         </div>
 </form>
-   </center>
-    <h1>Book List</h1>
+    <h1 style="color: white;">Book List</h1>
 
     {% if book_list %}
 
-    <div class="row mx-auto">
+    <div class="row mx-auto ">
       {% for book in book_list %}
 
 
-    <div class="mx-3 col-md-4 col-lg-3 mb-4 shadow p-2 mb-4 bg-white rounded">
+    <!-- <div class="" style="height: fit-content; width: fit-content;">
       <div class="card mx-auto text-center ">
-      <img class="card-img-top" src="{{ book.pic.url }}" alt="Sample Title" height="400px" width="400px">
-        <div class="card-body">
-          <h2 class="card-title">    <a href="{{ book.get_absolute_url }}">{{ book.title }}</a> ({{book.author}})</h2>
+        <img class="card-img-top" src="{{ book.pic.url }}" alt="Sample Title" height="400px" width="400px">
+          <div class="card-body">
+            <p style="font-size: 30px;"><a href="{{ book.get_absolute_url }}">{{ book.title }}</a></p> <p>({{book.author}})</p>
+          </div>
+        </div>
+    </div> -->
+    
+    <div class="bg bg-white" style="height:100%; width: 100%;">
+      <div style="margin-top:10px; margin-left:10px;margin-bottom: 10px; height: 20%; width: 140%;" >
+        <img src="{{ book.pic.url }}"  height="200px" width="200px" style="display: inline-block;">
+        <div style="display: inline-block; margin-left: 20px; ">
+          <h5 ><a href="{{ book.get_absolute_url }}">{{ book.title }}</a></h5>
+          <p class="card-text">({{book.author}})</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
-    </div>
       {% endfor %}
     </div>
 

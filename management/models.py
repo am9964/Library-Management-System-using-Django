@@ -53,9 +53,9 @@ def create_user(sender, *args, **kwargs):
 #relation containing info about students
 #roll_no is used for identifing students uniquely
 class Student(models.Model):
-    roll_no = models.CharField(max_length=10,unique=True)
-    name = models.CharField(max_length=10)
-    branch = models.CharField(max_length=3)
+    roll_no = models.CharField(max_length=20,unique=True)
+    name = models.CharField(max_length=20)
+    branch = models.CharField(max_length=20)
     contact_no = models.CharField(max_length=10)
     total_books_due=models.IntegerField(default=0)
     email=models.EmailField(unique=True)
