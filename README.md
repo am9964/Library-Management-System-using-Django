@@ -37,6 +37,6 @@ easy to manage accounts and various details of particular student and employees 
 
 ## Contributors
 
-<p>![Ankit Mathur](https://github.com/am9964.png?size=128)<br>[Ankit Mathur](https://github.com/am9964)</p>|
-<p>![Adarsh Srivastava](https://github.com/theAdarshSrivastava.png?size=128)<br>[Adarsh Srivastava](https://github.com/theAdarshSrivastava)</p>|
+| <p>![Ankit Mathur](https://github.com/am9964.png?size=128)<br>[Ankit Mathur](https://github.com/am9964)</p><p>![Adarsh Srivastava](https://github.com/theAdarshSrivastava.png?size=128)<br>[Adarsh Srivastava](https://github.com/theAdarshSrivastava)</p>|
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
  
