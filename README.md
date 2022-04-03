@@ -30,7 +30,7 @@ easy to manage accounts and various details of particular student and employees 
  
  ## Demonstration
  
- <img src = "Demo/loginpage.jpg" height = 300px width = 500px>
+ <img src = "Demo/loginpage.jpg" height = 300px width = 700px>
 
 ## Contributors
 
