@@ -32,8 +32,8 @@ easy to manage accounts and various details of particular student and employees 
  
  <img src = "Demo/loginpage.jpg" height = 300px width = 700px>
   <img src = "Demo/homepage.jpg" height = 300px width = 700px>
-  <img src = "Demo/Booklistpage.jpg" height = 300px width = 700px>
-  <img src = "Demo/Studentdetails.jpg" height = 300px width = 700px>
+  <img src = "Demo/booklistpage.jpg" height = 300px width = 700px>
+  <img src = "Demo/studentdetails.jpg" height = 300px width = 700px>
 
 ## Contributors
 
