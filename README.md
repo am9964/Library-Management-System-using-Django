@@ -30,4 +30,10 @@ easy to manage accounts and various details of particular student and employees 
  
  ## Demonstration
  
+ <img src = "Demo/loginpage.jpg" height = 300px width = 500px>
+
+## Contributors
+
+- [Ankit Mathur](https://github.com/am9964)
+- [Adarsh Srivastava](https://github.com/theAdarshSrivastava)
  
